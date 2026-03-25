@@ -94,8 +94,7 @@ em {
 }
 
 .navbar.scrolled {
-    background: rgba(26, 26, 26, 0.95);
-    backdrop-filter: blur(20px);
+    background: #1A1A1A;
     padding: 12px 0;
     box-shadow: 0 2px 20px rgba(0,0,0,0.3);
 }
@@ -963,6 +962,14 @@ em {
 }
 
 @media (max-width: 768px) {
+    .navbar {
+        background: rgba(26, 26, 26, 0.9);
+    }
+
+    .navbar.scrolled {
+        background: #1A1A1A;
+    }
+
     .section {
         padding: 70px 0;
     }
