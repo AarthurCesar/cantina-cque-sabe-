@@ -29,6 +29,16 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // Close menu on click outside
+    document.addEventListener('click', (e) => {
+        if (navMenu.classList.contains('active') &&
+            !navMenu.contains(e.target) &&
+            !navToggle.contains(e.target)) {
+            navToggle.classList.remove('active');
+            navMenu.classList.remove('active');
+        }
+    });
+
     // --- Smooth scroll for anchor links ---
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', (e) => {
@@ -100,7 +110,6 @@ document.addEventListener('DOMContentLoaded', () => {
             window.open(url, '_blank');
 
             form.reset();
-            }, 1200);
         });
     }
 

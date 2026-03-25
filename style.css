@@ -178,6 +178,8 @@ em {
     border: none;
     cursor: pointer;
     padding: 4px;
+    z-index: 1001;
+    position: relative;
 }
 
 .nav-toggle span {
@@ -985,6 +987,7 @@ em {
         gap: 24px;
         transition: right 0.4s ease;
         box-shadow: var(--shadow-lg);
+        z-index: 1000;
     }
 
     .nav-menu.active {
