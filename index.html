@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cantina C'que Sabe | Gastronomia com Alma</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">C'que Sabe</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#especialidades">Especialidades</a></li>
+                <li><a href="#ambiente">Ambiente</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato" class="nav-cta">Reservar Mesa</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-badge">Cantina Tradicional no Bixiga desde 1931</span>
+            <h1>Cantina <em>C'que Sabe</em></h1>
+            <p class="hero-subtitle">Restaurante italiano com tradição, alma e sabor há mais de 90 anos</p>
+            <div class="hero-actions">
+                <a href="#especialidades" class="btn btn-primary">Conheça o Menu</a>
+                <a href="https://wa.me/5511998409685?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20uma%20reserva%20na%20Cantina%20C'que%20Sabe." target="_blank" class="btn btn-outline">📲 Reserve pelo WhatsApp</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Deslize para explorar</span>
+            <div class="scroll-indicator"></div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="section sobre" id="sobre">
+        <div class="container">
+            <div class="sobre-grid">
+                <div class="sobre-image">
+                    <div class="sobre-video">
+                        <video autoplay muted loop playsinline>
+                            <source src="assets/sobre/Nada supera a combinação entre tradição e ingredientes de primeira. No vídeo de hoje, apresentam.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="sobre-badge">
+                        <span class="badge-number">1931</span>
+                        <span class="badge-text">Tradição<br>desde então</span>
+                    </div>
+                </div>
+                <div class="sobre-content">
+                    <span class="section-tag">Nossa História</span>
+                    <h2>Cantina tradicional no <em>Bixiga desde 1931</em></h2>
+                    <p>A Cantina C'que Sabe é um restaurante italiano com raízes profundas no coração do Bixiga. Desde 1931, receitas tradicionais se encontram com ingredientes de primeira, preparados com o carinho de quem entende que cozinhar é uma arte.</p>
+                    <p>Nosso espaço foi pensado para proporcionar momentos únicos — seja um jantar romântico, uma celebração em família ou um encontro entre amigos. Venha viver essa experiência.</p>
+                    <div class="sobre-stats">
+                        <div class="stat">
+                            <span class="stat-icon">👨‍🍳</span>
+                            <span class="stat-label">Chef Dedicado</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-icon">🌿</span>
+                            <span class="stat-label">Ingredientes Frescos</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-icon">❤️</span>
+                            <span class="stat-label">Feito com Amor</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="section-divider">
+        <div class="divider-line"></div>
+        <span class="divider-icon">✦</span>
+        <div class="divider-line"></div>
+    </div>
+
+    <!-- Especialidades -->
+    <section class="section especialidades" id="especialidades">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">O Melhor da Casa</span>
+                <h2>Nossas <em>Especialidades</em></h2>
+                <p>Pratos preparados com maestria e paixão</p>
+            </div>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="menu-card-image">
+                        <div class="placeholder-icon">🥘</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Pratos Principais</h3>
+                        <p>Receitas tradicionais preparadas com ingredientes premium e o toque especial da casa.</p>
+                        <span class="menu-card-tag">Destaque do Chef</span>
+                    </div>
+                </div>
+                <div class="menu-card featured">
+                    <div class="menu-card-image">
+                        <div class="placeholder-icon">🍝</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Massas Artesanais</h3>
+                        <p>Massas frescas feitas diariamente com farinha especial e molhos preparados do zero.</p>
+                        <span class="menu-card-tag">Mais Pedido</span>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-image">
+                        <div class="placeholder-icon">🍮</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Sobremesas</h3>
+                        <p>Doces irresistíveis que encerram sua experiência gastronômica com chave de ouro.</p>
+                        <span class="menu-card-tag">Imperdível</span>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-image">
+                        <div class="placeholder-icon">🍷</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Carta de Vinhos</h3>
+                        <p>Seleção curada dos melhores rótulos para harmonizar com cada momento.</p>
+                        <span class="menu-card-tag">Sommelier</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ambiente -->
+    <section class="section ambiente" id="ambiente">
+        <div class="container">
+            <div class="section-header light">
+                <span class="section-tag">Nosso Espaço</span>
+                <h2>Um ambiente que <em>encanta</em></h2>
+                <p>Cada detalhe pensado para sua experiência perfeita</p>
+            </div>
+            <div class="ambiente-grid">
+                <div class="ambiente-card large">
+                    <div class="image-placeholder dark">
+                        <div class="placeholder-icon">🕯️</div>
+                        <span>Salão Principal</span>
+                    </div>
+                </div>
+                <div class="ambiente-card">
+                    <div class="image-placeholder dark">
+                        <div class="placeholder-icon">🌿</div>
+                        <span>Área Externa</span>
+                    </div>
+                </div>
+                <div class="ambiente-card">
+                    <div class="image-placeholder dark">
+                        <div class="placeholder-icon">🍸</div>
+                        <span>Bar</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="section depoimentos" id="depoimentos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">O Que Dizem</span>
+                <h2>Experiências <em>Inesquecíveis</em></h2>
+            </div>
+            <div class="depoimentos-grid">
+                <div class="depoimento-card">
+                    <div class="depoimento-stars">★★★★★</div>
+                    <p>"A melhor cantina que já visitei. O ambiente é acolhedor e a comida é simplesmente divina. Voltarei com certeza!"</p>
+                    <div class="depoimento-author">
+                        <div class="author-avatar">M</div>
+                        <div>
+                            <strong>Maria S.</strong>
+                            <span>Cliente Frequente</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="depoimento-card">
+                    <div class="depoimento-stars">★★★★★</div>
+                    <p>"Comemorei meu aniversário aqui e foi perfeito. Atendimento impecável, pratos maravilhosos e uma carta de vinhos excelente."</p>
+                    <div class="depoimento-author">
+                        <div class="author-avatar">R</div>
+                        <div>
+                            <strong>Roberto L.</strong>
+                            <span>Via Instagram</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="depoimento-card">
+                    <div class="depoimento-stars">★★★★★</div>
+                    <p>"As massas artesanais são de outro mundo! Cada visita é uma experiência única. Recomendo de olhos fechados."</p>
+                    <div class="depoimento-author">
+                        <div class="author-avatar">A</div>
+                        <div>
+                            <strong>Ana P.</strong>
+                            <span>Google Reviews</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / Instagram -->
+    <section class="section cta-section">
+        <div class="container">
+            <div class="cta-box">
+                <h2>Siga-nos no <em>Instagram</em></h2>
+                <p>Acompanhe nossos pratos, novidades e bastidores</p>
+                <a href="https://www.instagram.com/cantinacquesabe/" target="_blank" class="btn btn-primary btn-lg">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    @cantinacquesabe
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="section contato" id="contato">
+        <div class="container">
+            <div class="contato-grid">
+                <div class="contato-info">
+                    <span class="section-tag">Contato</span>
+                    <h2>Faça sua <em>Reserva</em></h2>
+                    <p>Entre em contato conosco e garanta sua mesa para uma experiência gastronômica inesquecível.</p>
+                    <div class="contato-details">
+                        <div class="contato-item">
+                            <span class="contato-icon">📍</span>
+                            <div>
+                                <strong>Endereço</strong>
+                                <p>Rua Rui Barbosa, 192 — Bela Vista, São Paulo — SP, 01326-010</p>
+                            </div>
+                        </div>
+                        <div class="contato-item">
+                            <span class="contato-icon">📞</span>
+                            <div>
+                                <strong>Telefones</strong>
+                                <p>(11) 3289-2574 | (11) 3251-4597</p>
+                            </div>
+                        </div>
+                        <div class="contato-item">
+                            <span class="contato-icon">📲</span>
+                            <div>
+                                <strong>WhatsApp — Reservas</strong>
+                                <p><a href="https://wa.me/5511998409685" target="_blank" style="color: var(--wine); font-weight: 600;">(11) 99840-9685</a></p>
+                            </div>
+                        </div>
+                        <div class="contato-item">
+                            <span class="contato-icon">🕐</span>
+                            <div>
+                                <strong>Horário</strong>
+                                <p>Aberto todos os dias</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contato-form-wrapper">
+                    <form class="contato-form" id="contatoForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Seu telefone" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="date" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="number" placeholder="Pessoas" min="1" max="20" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Observações (alergias, ocasião especial...)" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">📲 Reservar via WhatsApp</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>C'que Sabe</h3>
+                    <p>Gastronomia com alma e sabor</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/cantinacquesabe/" target="_blank" aria-label="Instagram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Cantina C'que Sabe. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
